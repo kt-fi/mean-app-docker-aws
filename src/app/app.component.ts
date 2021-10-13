@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'dockerAws';
+
+  info:any = {
+    myName: "Christopher James Hillman",
+    course: "MEAN Stack",
+    projectName: "My Docker AWS app"
+  }
 }
